@@ -17,7 +17,7 @@ modules:
       - project1.zip
       name: project1
       target-path: resources/
-- name: project11
+- name: project1
   type: html5
   path: .
   build-parameters:
