@@ -2,6 +2,6 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-    <Label id="idoflabel" text="hello Vinod"></Label>
+    <Label id="idoflabel" text="hello Vinod2"></Label>
     </Page>
 </mvc:View>
