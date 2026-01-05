@@ -8,7 +8,6 @@
     "sapui5"
   ],
   "main": "webapp/index.html",
-  "dependencies": {},
   "devDependencies": {
     "@ui5/cli": "^4.0.33",
     "@sap/ux-ui5-tooling": "1",
@@ -30,5 +29,15 @@
     "build:mta": "rimraf resources mta_archives && mbt build",
     "undeploy": "cf undeploy project1 --delete-services --delete-service-keys --delete-service-brokers"
   },
-  "sapuxLayer": "CUSTOMER_BASE"
+  "sapuxLayer": "CUSTOMER_BASE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinodLimkar/ashishtest.git"
+  },
+  "author": "Vinod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinodLimkar/ashishtest/issues"
+  },
+  "homepage": "https://github.com/VinodLimkar/ashishtest#readme"
 }
