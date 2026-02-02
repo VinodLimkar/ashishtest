@@ -7,6 +7,14 @@
     {
       "name":"$XSAPPNAME.Global_user",
       "description":"Can create and update articles"
+    },
+     {
+      "name":"$XSAPPNAME.read",
+      "description":"Can create and update articles"
+    },
+     {
+      "name":"$XSAPPNAME.update",
+      "description":"Can create and update articles"
     }
   ],
   "role-templates": [
