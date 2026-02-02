@@ -12,10 +12,12 @@
   "role-templates": [
      {
       "name": "ContentCreator",
-      "description": "Can create and update articles",
+      "description": "Can create and update articles read and write",
       "scope-references": [
         "$XSAPPNAME.Read",
         "$XSAPPNAME.Update"
+        
+
       ]
     }
   ]
