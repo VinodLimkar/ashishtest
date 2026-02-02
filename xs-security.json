@@ -3,29 +3,26 @@
   "tenant-mode": "dedicated",
   "description": "Security profile of called application",
   "scopes": [
-
     {
-      "name":"$XSAPPNAME.Global_user",
-      "description":"Can create and update articles"
+      "name": "$XSAPPNAME.Global_user",
+      "description": "Global application access"
     },
-     {
-      "name":"$XSAPPNAME.read",
-      "description":"Can create and update articles"
+    {
+      "name": "$XSAPPNAME.read",
+      "description": "Read articles"
     },
-     {
-      "name":"$XSAPPNAME.update",
-      "description":"Can create and update articles"
+    {
+      "name": "$XSAPPNAME.update",
+      "description": "Create and update articles"
     }
   ],
   "role-templates": [
-     {
+    {
       "name": "ContentCreator",
-      "description": "Can create and update articles read and write",
+      "description": "Can read, create and update articles",
       "scope-references": [
-        "$XSAPPNAME.Read",
-        "$XSAPPNAME.Update"
-        
-
+        "$XSAPPNAME.read",
+        "$XSAPPNAME.update"
       ]
     }
   ]
