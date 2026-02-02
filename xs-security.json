@@ -2,6 +2,21 @@
   "xsappname": "project1",
   "tenant-mode": "dedicated",
   "description": "Security profile of called application",
-  "scopes": [],
-  "role-templates": []
+  "scopes": [
+
+    {
+      "name":"$XSAPPNAME.Global_user",
+      "description":"Can create and update articles"
+    }
+  ],
+  "role-templates": [
+     {
+      "name": "ContentCreator",
+      "description": "Can create and update articles",
+      "scope-references": [
+        "$XSAPPNAME.Read",
+        "$XSAPPNAME.Update"
+      ]
+    }
+  ]
 }
